@@ -49,14 +49,14 @@ function evaluateRoll(){
 
 // Views
 function showPlayerRollResult(){
-  playerRollText.innerHTML=playerRoll;
+  playerRollText.innerHTML= " Du rullade" +" " +playerRoll;
 }
 
 function showAiRollResult(){
-  AiRollText.innerHTML=AiRoll;
+  AiRollText.innerHTML= " Ai Rullade " + " "+ AiRoll;
 }
 function updateScores(){
-  playerScoreText.innerHTML= playerScore;
-  AiScoreText.innerHTML= AiScore;
+  playerScoreText.innerHTML= " Du har "+" "+playerScore + " " +"poäng";
+  AiScoreText.innerHTML=  " Ai har "+" "+ AiScore + " "+ " poäng";
 }
 
